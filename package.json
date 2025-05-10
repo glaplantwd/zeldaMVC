@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+{
+  "dependencies": {
+    "@glidejs/glide": "^3.7.1"
+  }
+}
+=======
+{
+  "dependencies": {
+    "@glidejs/glide": "^3.7.1"
+  }
+}
+>>>>>>> 4292a3389fb6175b95e108312200cdc983097d5b

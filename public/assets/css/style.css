@@ -1,0 +1,599 @@
+<<<<<<< HEAD
+:root {	/*Original Logo Colors*/
+
+	--zelda-red: #ca010c;
+	--zelda-pink: #ef9fa1;
+	--zelda-dark-red: #7d0609;
+
+	--zelda-grey: #494b4b;
+	--zelda-green: #0e5135;
+	--zelda-light-green: #0d9263;
+	--zelda-light-blue: #4aba91;
+	--zelda-yellow: #d4ce46;
+}
+
+.primary_button {
+	text-transform: uppercase;
+	background-color: var(--zelda-green);
+	padding: 1em 1.5em;
+	font-size: 1rem;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	color: white;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+header {
+	position: fixed;
+	color: #000000;
+	top: 0;
+	width: 100%;
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		45deg,
+		rgba(14, 81, 53, 1) 30%,
+		rgba(255, 255, 255, 1) 30%
+	);
+
+	box-shadow: 0 0px 20px rgba(0, 0, 0, 0.5);
+	z-index: 99999;
+}
+
+.header-row.row {
+	max-width: 1200px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	min-height: 100px;
+}
+
+nav a {
+	color: #000;
+	text-decoration: none;
+	font-size: 1rem;
+	font-weight: 800;
+}
+
+.logo-container {
+	max-width: 600px;
+	/* background-color: #000; */
+	flex: 1;
+	/* transform: skew(40deg); */
+	/* margin-left: -300px; */
+	display: flex;
+	/* justify-content: center; */
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	/* clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%); */
+}
+
+nav {
+	flex: 2;
+}
+
+nav ul {
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	gap: 2em;
+	padding-left: 0;
+}
+
+nav li {
+	list-style-type: none;
+}
+
+nav a {
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: 16px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.logo-container img {
+	width: 100%;
+	max-width: 100px;
+	/* height: auto;
+	margin: 0 auto 0 25%; */
+	/* transform: skew(-40deg); */
+	/* margin-left: 45%; */
+}
+
+footer {
+	background-color: #000000;
+	min-height: 200px;
+	margin-top: 10vw;
+}
+
+.row {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.row.multi-column {
+	display: flex;
+	min-width: 350px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.row.multi-column > div {
+	min-width: 350px;
+}
+
+.multi-column > .column-one {
+	max-width: 25%;
+	width: 100%;
+	flex: 1;
+	padding-top: 8vw;
+	padding-bottom: 8vw;
+	background-color: var(--zelda-light-green);
+}
+
+.multi-column > .column-two {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex: 1;
+	margin-top: 8vw;
+	margin-bottom: 8vw;
+}
+
+.paragraph-text,
+.multi-column > .column-two h2 {
+	max-width: 50%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.multi-column > .column-two h2 {
+	margin-bottom: 1rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+.paragraph-text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	line-height: 1.5em;
+	font-size: 1rem;
+}
+
+main {
+	padding-top: 100px;
+}
+
+section {
+	padding: 8vw 4vw;
+}
+
+.full-width-hero-section img {
+	background-color: var(--zelda-light-blue);
+	width: 100vw;
+	height: 100%;
+	object-fit: cover; /* Ensures the image covers the container */
+	object-position: center; /* Centers the image */
+}
+
+.row.full-width-hero {
+	padding: 0;
+	margin: 0;
+}
+
+.full-width-hero-section {
+	/* background-color: var(--zelda-light-blue);
+	width: 100vw;
+	height: 100vh; */
+	padding: 0;
+	margin: 0;
+}
+
+.column-one img {
+	width: 100%;
+	max-width: 300px;
+}
+
+.places .column-one {
+	background-image: url("../images/homePage/places.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.characters .column-one {
+	background-image: url("../images/homePage/characters_breath_of_the_wild.webp");
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.items .column-one {
+	background-image: url("../images/homePage/items.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.dungeons .column-one {
+	background-image: url("../images/homePage/dungeons_zelda_one.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.monsters .column-one {
+	background-image: url("../images/homePage/monsters_ocarina.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bosses .column-one {
+	background-image: url("../images/homePage/bosses.webp");
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.monster-tile {
+	background-color: #7d0609;
+	color: #fff;
+	aspect-ratio: 1/1;
+	max-width: 300px;
+	min-height: 250px;
+	/* background-image: ; */
+	/* box-shadow: 0 20px 10px 0px rgba(0, 0, 0, 0.1); */
+	margin-bottom: 1rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+	border: solid 1px #000;
+}
+
+.monster-tile h2 {
+	text-align: left;
+	margin-left: 1rem;
+	margin-right: auto;
+}
+
+.monster-tile-row {
+	display: flex;
+}
+
+.glide .glide__bullet {
+	background-color: #000;
+}
+
+.glide .glide__bullet:hover,
+.glide .glide__bullet:focus {
+	background-color: #535252;
+}
+
+.glide .glide__bullets {
+	bottom: 85em;
+}
+
+.glide-section {
+	padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+	nav ul {
+		display: none;
+	}
+}
+=======
+:root {	/*Original Logo Colors*/
+
+	--zelda-red: #ca010c;
+	--zelda-pink: #ef9fa1;
+	--zelda-dark-red: #7d0609;
+
+	--zelda-grey: #494b4b;
+	--zelda-green: #0e5135;
+	--zelda-light-green: #0d9263;
+	--zelda-light-blue: #4aba91;
+	--zelda-yellow: #d4ce46;
+}
+
+.primary_button {
+	text-transform: uppercase;
+	background-color: var(--zelda-green);
+	padding: 1em 1.5em;
+	font-size: 1rem;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	color: white;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+header {
+	position: fixed;
+	color: #000000;
+	top: 0;
+	width: 100%;
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		45deg,
+		rgba(14, 81, 53, 1) 30%,
+		rgba(255, 255, 255, 1) 30%
+	);
+
+	box-shadow: 0 0px 20px rgba(0, 0, 0, 0.5);
+	z-index: 99999;
+}
+
+.header-row.row {
+	max-width: 1200px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	min-height: 100px;
+}
+
+nav a {
+	color: #000;
+	text-decoration: none;
+	font-size: 1rem;
+	font-weight: 800;
+}
+
+.logo-container {
+	max-width: 600px;
+	/* background-color: #000; */
+	flex: 1;
+	/* transform: skew(40deg); */
+	/* margin-left: -300px; */
+	display: flex;
+	/* justify-content: center; */
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	/* clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%); */
+}
+
+nav {
+	flex: 2;
+}
+
+nav ul {
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	gap: 2em;
+	padding-left: 0;
+}
+
+nav li {
+	list-style-type: none;
+}
+
+nav a {
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: 16px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.logo-container img {
+	width: 100%;
+	max-width: 100px;
+	/* height: auto;
+	margin: 0 auto 0 25%; */
+	/* transform: skew(-40deg); */
+	/* margin-left: 45%; */
+}
+
+footer {
+	background-color: #000000;
+	min-height: 200px;
+	margin-top: 10vw;
+}
+
+.row {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.row.multi-column {
+	display: flex;
+	min-width: 350px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.row.multi-column > div {
+	min-width: 350px;
+}
+
+.multi-column > .column-one {
+	max-width: 25%;
+	width: 100%;
+	flex: 1;
+	padding-top: 8vw;
+	padding-bottom: 8vw;
+	background-color: var(--zelda-light-green);
+}
+
+.multi-column > .column-two {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex: 1;
+	margin-top: 8vw;
+	margin-bottom: 8vw;
+}
+
+.paragraph-text,
+.multi-column > .column-two h2 {
+	max-width: 50%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.multi-column > .column-two h2 {
+	margin-bottom: 1rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+.paragraph-text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	line-height: 1.5em;
+	font-size: 1rem;
+}
+
+main {
+	padding-top: 100px;
+}
+
+section {
+	padding: 8vw 4vw;
+}
+
+.full-width-hero-section img {
+	background-color: var(--zelda-light-blue);
+	width: 100vw;
+	height: 100%;
+	object-fit: cover; /* Ensures the image covers the container */
+	object-position: center; /* Centers the image */
+}
+
+.row.full-width-hero {
+	padding: 0;
+	margin: 0;
+}
+
+.full-width-hero-section {
+	/* background-color: var(--zelda-light-blue);
+	width: 100vw;
+	height: 100vh; */
+	padding: 0;
+	margin: 0;
+}
+
+.column-one img {
+	width: 100%;
+	max-width: 300px;
+}
+
+.places .column-one {
+	background-image: url("../images/homePage/places.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.characters .column-one {
+	background-image: url("../images/homePage/characters_breath_of_the_wild.webp");
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.items .column-one {
+	background-image: url("../images/homePage/items.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.dungeons .column-one {
+	background-image: url("../images/homePage/dungeons_zelda_one.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.monsters .column-one {
+	background-image: url("../images/homePage/monsters_ocarina.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bosses .column-one {
+	background-image: url("../images/homePage/bosses.webp");
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.monster-tile {
+	background-color: #7d0609;
+	color: #fff;
+	aspect-ratio: 1/1;
+	max-width: 300px;
+	min-height: 250px;
+	/* background-image: ; */
+	/* box-shadow: 0 20px 10px 0px rgba(0, 0, 0, 0.1); */
+	margin-bottom: 1rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+	border: solid 1px #000;
+}
+
+.monster-tile h2 {
+	text-align: left;
+	margin-left: 1rem;
+	margin-right: auto;
+}
+
+.monster-tile-row {
+	display: flex;
+}
+
+.glide .glide__bullet {
+	background-color: #000;
+}
+
+.glide .glide__bullet:hover,
+.glide .glide__bullet:focus {
+	background-color: #535252;
+}
+
+.glide .glide__bullets {
+	bottom: 85em;
+}
+
+.glide-section {
+	padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+	nav ul {
+		display: none;
+	}
+}
+>>>>>>> 4292a3389fb6175b95e108312200cdc983097d5b
