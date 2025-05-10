@@ -1,12 +1,12 @@
 function buildHeader() {	const body = document.querySelector("body");
 	const header = document.createElement("header");
 	const nav = document.createElement("nav");
-	const dungeons = new navLink("Dungeons", "../public/dungeons.html");
-	const items = new navLink("Items", "../public/items.html");
-	const monsters = new navLink("Monsters", "../public/monsters.html");
-	const bosses = new navLink("Bosses", "../public/bosses.html");
-	const characters = new navLink("Characters", "../public/characters.html");
-	const places = new navLink("Places", "../public/places.html");
+	const dungeons = new navLink("Dungeons", "dungeons.html");
+	const items = new navLink("Items", "items.html");
+	const monsters = new navLink("Monsters", "monsters.html");
+	const bosses = new navLink("Bosses", "bosses.html");
+	const characters = new navLink("Characters", "characters.html");
+	const places = new navLink("Places", "places.html");
 	const navLinks = [characters, items, places, monsters, dungeons, bosses];
 	const headerImage = document.createElement("img");
 	const logoContainer = document.createElement("div");
@@ -16,9 +16,9 @@ function buildHeader() {	const body = document.querySelector("body");
 
 	logoContainer.classList.add("logo-container");
 	headerImage.src =
-		"../public/assets/images/white_The-Royal-Hyrule-Crest-logo-SVG-d0t9oy.svg";
+		"./assets/images/white_The-Royal-Hyrule-Crest-logo-SVG-d0t9oy.svg";
 
-	homeLink.setAttribute("href", "../public/index.html");
+	homeLink.setAttribute("href", "index.html");
 	homeLink.appendChild(headerImage);
 	navLinks.forEach((link) => {
 		let aElement = document.createElement("a");
