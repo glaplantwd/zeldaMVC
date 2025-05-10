@@ -18,7 +18,7 @@ function buildHeader() {	const body = document.querySelector("body");
 	headerImage.src =
 		"./assets/images/white_The-Royal-Hyrule-Crest-logo-SVG-d0t9oy.svg";
 
-	homeLink.setAttribute("href", "../index.html");
+	homeLink.setAttribute("href", "./index.html");
 	homeLink.appendChild(headerImage);
 	navLinks.forEach((link) => {
 		let aElement = document.createElement("a");
