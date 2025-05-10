@@ -19,25 +19,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	switch (path) {
 		case "/":
-		case "/public/index.html":
+		case "/index.html":
 			indexController();
 			break;
-		case "/public/characters.html":
+		case "./characters.html":
 			charactersController();
 			break;
-		case "/public/bosses.html":
+		case "./bosses.html":
 			bossesController();
 			break;
-		case "/public/items.html":
+		case "./items.html":
 			itemsController();
 			break;
-		case "/public/monsters.html":
+		case "./monsters.html":
 			monstersController();
 			break;
-		case "/public/places.html":
+		case "./places.html":
 			placesController();
 			break;
-		case "/public/dungeons.html":
+		case "./dungeons.html":
 			dungeonsController();
 			break;
 		default:
