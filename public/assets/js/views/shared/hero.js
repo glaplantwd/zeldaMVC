@@ -1,4 +1,13 @@
 function fullwidthHeroSection($imgSrc) {
+
+	const heroSection = document.querySelector(".full-width-hero-section");
+	
+	if(heroSection){
+		
+		heroImage.src = `https://glaplantwd.github.io/zeldaMVC/public/assets/images/heroImages/${$imgSrc}`;
+	
+	}
+	else{
 	const fullwidthHeroSection = document.createElement("section");
 	const fullwidthHero = document.createElement("div");
 	const heroImage = document.createElement("img");
@@ -13,6 +22,7 @@ function fullwidthHeroSection($imgSrc) {
 	heroImage.alt = "Legend of Zelda Link Fan Art Concept Illustration";	
 	fullwidthHeroSection.appendChild(fullwidthHero);
 	document.querySelector("#main-content").appendChild(fullwidthHeroSection);
+}
 }
 
 
