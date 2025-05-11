@@ -15,8 +15,7 @@ function buildHeader() {	const body = document.querySelector("body");
 	const homeLink = document.createElement("a");
 
 	logoContainer.classList.add("logo-container");
-	headerImage.src =
-		"./assets/images/white_The-Royal-Hyrule-Crest-logo-SVG-d0t9oy.svg";
+	headerImage.src = "https://glaplantwd.github.io/zeldaMVC/public/assets/images/white_The-Royal-Hyrule-Crest-logo-SVG-d0t9oy.svg";
 
 	homeLink.setAttribute("href", "https://glaplantwd.github.io/zeldaMVC/index.html");
 	homeLink.appendChild(headerImage);
