@@ -9,7 +9,7 @@ function fullwidthHeroSection($imgSrc) {
 	heroImage.classList.add("hero-image");
 
 	fullwidthHero.appendChild(heroImage);
-	heroImage.src = `../public/assets/images/heroImages/${$imgSrc}`;
+	heroImage.src = `https://glaplantwd.github.io/zeldaMVC/public/assets/images/heroImages/${$imgSrc}`;
 	heroImage.alt = "Legend of Zelda Link Fan Art Concept Illustration";	
 	fullwidthHeroSection.appendChild(fullwidthHero);
 	document.querySelector("#main-content").appendChild(fullwidthHeroSection);
