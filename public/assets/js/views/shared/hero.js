@@ -1,6 +1,7 @@
 function fullwidthHeroSection($imgSrc) {
 
 	const heroSection = document.querySelector(".full-width-hero-section");
+	const heroImage = document.createElement("img");
 	
 	if(heroSection){
 		
@@ -10,7 +11,7 @@ function fullwidthHeroSection($imgSrc) {
 	else{
 	const fullwidthHeroSection = document.createElement("section");
 	const fullwidthHero = document.createElement("div");
-	const heroImage = document.createElement("img");
+	
 	
 
 	fullwidthHeroSection.classList.add("full-width-hero-section");
