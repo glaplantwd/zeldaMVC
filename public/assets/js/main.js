@@ -1,10 +1,10 @@
 //IMPORT CONTROLLERS
-import { charactersController } from "/assets/js/controllers/charactersController.js";
-import { bossesController } from "/assets/js/controllers/bossesController.js";
-import { itemsController } from "/assets/js/controllers/itemsController.js";
-import { monstersController } from "/assets/js/controllers/monstersController.js";
-import { placesController } from "/assets/js/controllers/placesController.js";
-import { dungeonsController } from "/assets/js/controllers/dungeonsController.js";
+import { charactersController } from "/zeldaMVC/public/assets/js/controllers/charactersController.js";
+import { bossesController } from "/zeldaMVC/public/assets/js/controllers/bossesController.js";
+import { itemsController } from "/zeldaMVC/public/assets/js/controllers/itemsController.js";
+import { monstersController } from "/zeldaMVC/public/assets/js/controllers/monstersController.js";
+import { placesController } from "/zeldaMVC/public/assets/js/controllers/placesController.js";
+import { dungeonsController } from "/zeldaMVC/public/assets/js/controllers/dungeonsController.js";
 import { indexController } from "/zeldaMVC/public/assets/js/controllers/indexController.js";
 
 //IMPORT SHARED VIEWS
