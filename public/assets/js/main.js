@@ -1,5 +1,5 @@
-//IMPORT CONTROLLERSimport { indexController } from "./controllers/indexController.js";
-import { charactersController } from "https:/https://glaplantwd.github.io/zeldaMVC/assets/js/controllers/charactersController.js";
+//IMPORT CONTROLLERS
+import { charactersController } from "https://glaplantwd.github.io/zeldaMVC/assets/js/controllers/charactersController.js";
 import { bossesController } from "https://glaplantwd.github.io/zeldaMVC/assets/js/controllers/bossesController.js";
 import { itemsController } from "https://glaplantwd.github.io/zeldaMVC/assets/js/controllers/itemsController.js";
 import { monstersController } from "https://glaplantwd.github.io/zeldaMVC/assets/js/controllers/monstersController.js";
