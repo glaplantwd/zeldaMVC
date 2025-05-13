@@ -19,25 +19,25 @@ document.addEventListener("DOMContentLoaded", () => {
 console.log(path);
 	switch (path) {
 		case "/":
-		case "/index.html":
+		case "/zeldaMVC/index.html":
 			indexController();
 			break;
-		case "/zeldaMVC/public/characters.html":
+		case "/zeldaMVC/characters.html":
 			charactersController();
 			break;
-		case "/zeldaMVC/public/bosses.html":
+		case "/zeldaMVC/bosses.html":
 			bossesController();
 			break;
-		case "/zeldaMVC/public/items.html":
+		case "/zeldaMVC/items.html":
 			itemsController();
 			break;
-		case "/zeldaMVC/public/monsters.html":
+		case "/zeldaMVC/monsters.html":
 			monstersController();
 			break;
-		case "/zeldaMVC/public/places.html":
+		case "/zeldaMVC/places.html":
 			placesController();
 			break;
-		case "/zeldaMVC/public/dungeons.html":
+		case "/zeldaMVC/dungeons.html":
 			dungeonsController();
 			break;
 		default:
