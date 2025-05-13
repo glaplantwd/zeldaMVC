@@ -1,11 +1,11 @@
 //IMPORT CONTROLLERS
-import { charactersController } from "https://glaplantwd.github.io/zeldaMVC/assets/js/controllers/charactersController.js";
-import { bossesController } from "https://glaplantwd.github.io/zeldaMVC/assets/js/controllers/bossesController.js";
-import { itemsController } from "https://glaplantwd.github.io/zeldaMVC/assets/js/controllers/itemsController.js";
-import { monstersController } from "https://glaplantwd.github.io/zeldaMVC/assets/js/controllers/monstersController.js";
-import { placesController } from "https://glaplantwd.github.io/zeldaMVC/assets/js/controllers/placesController.js";
-import { dungeonsController } from "https://glaplantwd.github.io/zeldaMVC/assets/js/controllers/dungeonsController.js";
-import { indexController } from "https://glaplantwd.github.io/zeldaMVC/assets/js/controllers/indexController.js";
+import { charactersController } from ".assets/js/controllers/charactersController.js";
+import { bossesController } from "./assets/js/controllers/bossesController.js";
+import { itemsController } from "./assets/js/controllers/itemsController.js";
+import { monstersController } from "./assets/js/controllers/monstersController.js";
+import { placesController } from "./assets/js/controllers/placesController.js";
+import { dungeonsController } from "./assets/js/controllers/dungeonsController.js";
+import { indexController } from "./assets/js/controllers/indexController.js";
 
 //IMPORT SHARED VIEWS
 
