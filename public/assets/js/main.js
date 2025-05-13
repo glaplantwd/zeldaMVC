@@ -22,22 +22,22 @@ console.log(path);
 		case "/index.html":
 			indexController();
 			break;
-		case "./characters.html":
+		case "/zeldaMVC/public/characters.html":
 			charactersController();
 			break;
-		case "./bosses.html":
+		case "/zeldaMVC/public/bosses.html":
 			bossesController();
 			break;
-		case "./items.html":
+		case "/zeldaMVC/public/items.html":
 			itemsController();
 			break;
-		case "./monsters.html":
+		case "/zeldaMVC/public/monsters.html":
 			monstersController();
 			break;
-		case "./places.html":
+		case "/zeldaMVC/public/places.html":
 			placesController();
 			break;
-		case "./dungeons.html":
+		case "/zeldaMVC/public/dungeons.html":
 			dungeonsController();
 			break;
 		default:
