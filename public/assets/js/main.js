@@ -9,7 +9,7 @@ import { indexController } from "/zeldaMVC/public/assets/js/controllers/indexCon
 
 //IMPORT SHARED VIEWS
 
-import { buildHeader } from "./views/shared/header.js";
+import { buildHeader } from "/zeldaMVC/public/assets/js/views/shared/header.js";
 
 
 document.addEventListener("DOMContentLoaded", () => {
