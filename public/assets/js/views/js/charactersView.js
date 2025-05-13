@@ -1,4 +1,4 @@
-import { fullwidthHeroSection } from "./js/views/js/shared/hero.js";
+import { fullwidthHeroSection } from "/zeldaMVC/public/assests/js/views/js/shared/hero.js";
 function charactersView() {
 	fullwidthHeroSection("home_hero.webp");
 }

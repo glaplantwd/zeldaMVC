@@ -21,7 +21,7 @@
 					</div>
 					*/
 
-import { fullwidthHeroSection } from "./public/assets/js/views/js/shared/hero.js";
+import { fullwidthHeroSection } from "/zeldaMVC/public/assets/js/views/js/shared/hero.js";
 
 function indexView() {
 	fullwidthHeroSection("home_hero.webp");
