@@ -9,13 +9,13 @@ function fullwidthHeroSection(imgSrc) {
 	heroImage.classList.add("hero-image");
 	heroImage.alt = "Legend of Zelda Link Fan Art Concept Illustration";
 	
-	if(fullwidthHeroSection){
-		heroSection.innerhtml = '';
+	if(heroSection){
+		heroSection.innerhtml = ' ';
 	}
 	else{
 		
 		heroSection = document.createElement("section");
-		fullwidthHeroSection.classList.add("full-width-hero-section");
+		heroSection.classList.add("full-width-hero-section");
 		document.querySelector("#main-content").appendChild(heroSection);
 	}
 
