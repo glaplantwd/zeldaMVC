@@ -1,5 +1,6 @@
 function fullwidthHeroSection(imgSrc) {
 
+	console.log(imgSrc);
 	if(!imgSrc) return;
 	
 	let heroSection = document.querySelector(".full-width-hero-section");
