@@ -2,7 +2,7 @@ function fullwidthHeroSection(imgSrc) {
 
 	if(!imgSrc) return;
 	
-	const heroSection = document.querySelector(".full-width-hero-section");
+	let heroSection = document.querySelector(".full-width-hero-section");
 	const heroImage = document.createElement("img");
 	
 	heroImage.src = `https://glaplantwd.github.io/zeldaMVC/public/assets/images/heroImages/${imgSrc}`;
